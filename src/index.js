@@ -1,8 +1,8 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-const TOKEN = "7937c8c3-446c-45d5-b55c-b2454a0129b0";
-const CHANNEL = "@MaxiPrograma"; // Cambiar canal
+const TOKEN = ""; // Token de VoxScript
+const CHANNEL = "@YTChannel"; // Cambiar canal con arroa "@"
 
 const getVideoText = async (videoId) => {
   try {
